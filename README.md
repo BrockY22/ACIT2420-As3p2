@@ -1,12 +1,12 @@
 # Where I put each file
 
-I created two directories, "back-end" and "my-site" in /var/www/
+I created two directories, **back-end** and **my-site** in _/var/www/_
 
-hello-server is in /var/www/back-end/
+**hello-server** is in _/var/www/back-end/_
 
-index.html is in /var/www/my-site/
+**index.html** is in _/var/www/my-site/_
 
-hello.conf is in /etc/nginx/sites-available/
-I created a symbolic link of hello.conf in /etc/nginx/sites-enabled/
+**hello.conf** is in _/etc/nginx/sites-available/_
+I created a symbolic link of hello.conf in _/etc/nginx/sites-enabled/_
 
-hello-server.service is in /etc/systemd/system/
+**hello-server.service** is in _/etc/systemd/system/_
