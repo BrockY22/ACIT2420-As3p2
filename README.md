@@ -1,6 +1,7 @@
 # Where I put each file
 
 I created two directories, **back-end** and **my-site** in _/var/www/_
+I created one directory, **hello-server** in _/var/log/_
 
 **hello-server** is in _/var/www/back-end/_
 
