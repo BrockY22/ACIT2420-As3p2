@@ -1,14 +1,12 @@
-# as3p2-starter-f23
+# Where I put each file
 
-You will have to edit some of these files to get your web servers working.
+I created two directories, "back-end" and "my-site" in /var/www/
 
-The included backend server runs on port 8080, 127.0.0.1:8080
+hello-server is in /var/www/back-end/
 
-## Included material
+index.html is in /var/www/my-site/
 
-- backend binary, hello-server
-- frontend, index.html
-- nginx configuration file, hello.conf
-- service file for backend, hello-server.service
-- config for setting up servers, cloud-config.yml
-- example curl commands for testing your server, curl.md
+hello.conf is in /etc/nginx/sites-available/
+I created a symbolic link of hello.conf in /etc/nginx/sites-enabled/
+
+hello-server.service is in /etc/systemd/system/
