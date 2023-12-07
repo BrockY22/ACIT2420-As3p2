@@ -1,19 +1,30 @@
-# What directories i have created:
+# README
 
-I created two directories, **back-end** and **my-site** in _/var/www/_
+## Directories Created
 
-I created one directory, **hello-server** in _/var/log/_
+I have created the following directories:
 
-# Where I put each file:
+- `/var/www/`
+  - `back-end`
+  - `my-site`
+- `/var/log/`
+  - `hello-server`
 
-**hello-server** is in _/var/www/back-end/_
+## File Locations
 
-**index.html** is in _/var/www/my-site/_
+Here is where each file is located:
 
-**hello.conf** is in _/etc/nginx/sites-available/_
+- `hello-server`
+  - Located in: `/var/www/back-end/`
+- `index.html`
+  - Located in: `/var/www/my-site/`
+- `hello.conf`
+  - Located in: `/etc/nginx/sites-available/`
+- `hello-server.service`
+  - Located in: `/etc/systemd/system/`
 
-**hello-server.service** is in _/etc/systemd/system/_
+## Symbolic Links Created
 
-# links I have created:
+I have created the following symbolic link:
 
-I created a symbolic link of hello.conf in _/etc/nginx/sites-enabled/_
+- Link of `hello.conf` in `/etc/nginx/sites-enabled/`
