@@ -12,6 +12,8 @@ users:
 packages:
   - nginx
   - ufw
+  - ripgrep
+  - rsync
 
 runcmd:
   - sed -i 's/^#\(Storage=auto\)/\1/' /etc/systemd/journald.conf
